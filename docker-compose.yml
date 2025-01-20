@@ -6,6 +6,9 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
+    environment:
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+      - PUPPETEER_HEADLESS=true
     volumes:
       - ./:/app
       - /app/node_modules
