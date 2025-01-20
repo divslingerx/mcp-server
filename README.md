@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides web search capabilities using Puppeteer.
 
+<a href="https://glama.ai/mcp/servers/5qv6zrdx12"><img width="380" height="200" src="https://glama.ai/mcp/servers/5qv6zrdx12/badge" alt="Memory Store Server MCP server" /></a>
+
 ## Features
 
 - Web search functionality via Google
