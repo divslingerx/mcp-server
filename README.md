@@ -1,5 +1,7 @@
 # Memory Store MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@divslingerx/mcp-server)](https://smithery.ai/server/@divslingerx/mcp-server)
+
 A Model Context Protocol (MCP) server that provides web search capabilities using Puppeteer.
 
 ## Features
@@ -11,6 +13,15 @@ A Model Context Protocol (MCP) server that provides web search capabilities usin
 
 ## Installation
 
+### Installing via Smithery
+
+To install Memory Store for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@divslingerx/mcp-server):
+
+```bash
+npx -y @smithery/cli install @divslingerx/mcp-server --client claude
+```
+
+### Installing Manually
 1. Clone the repository:
 
    ```bash
